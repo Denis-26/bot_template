@@ -15,4 +15,15 @@ public class Update {
         this.updateId = updateId;
         return this;
     }
+    @JsonProperty(value = "message")
+    private Message message;
+
+    public Message getMessage() {
+        return message;
+    }
+
+    public Update setMessage(Message message) {
+        this.message = message;
+        return this;
+    }
 }

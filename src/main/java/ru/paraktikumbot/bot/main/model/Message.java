@@ -9,4 +9,11 @@ public class Message {
     public String getText() {
         return text;
     }
+
+    @JsonProperty(value = "chat")
+    private Chat chat;
+
+    public Chat getChat() {
+        return chat;
+    }
 }

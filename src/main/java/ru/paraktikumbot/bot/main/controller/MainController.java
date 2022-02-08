@@ -13,5 +13,6 @@ public class MainController {
     @PostMapping("/")
     public void main(@RequestBody Update update) {
         System.out.println(update.getUpdateId());
+        System.out.println(update.getMessage().getText());
     }
 }

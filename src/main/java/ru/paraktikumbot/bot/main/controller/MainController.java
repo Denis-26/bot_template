@@ -19,9 +19,8 @@ public class MainController {
     @PostMapping("/")
     public void main(@RequestBody Update update) {
         System.out.println(update.getUpdateId());
+        Integer chatId = update.getMessage().getChat().getId();
 
-        Integer chat_id = update.getMessage().getChat().getId();
-
-        responseService.sendMessage(chat_id, "Hello, a am bot");
+        responseService.sendMessage(chatId, "Hello, I am a bot");
     }
 }

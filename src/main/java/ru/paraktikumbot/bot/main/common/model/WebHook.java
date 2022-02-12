@@ -1,4 +1,4 @@
-package ru.paraktikumbot.bot.main.model;
+package ru.paraktikumbot.bot.main.common.model;
 
 public class WebHook {
 

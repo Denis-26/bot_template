@@ -1,4 +1,4 @@
-package ru.paraktikumbot.bot.main.config;
+package ru.paraktikumbot.bot.main.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -3,7 +3,7 @@
 Ссылка на основную сущность ```Update``` https://core.telegram.org/bots/api#update
 
 Каждый раз, когда приходит сообщение боту, то в
-```ru.paraktikumbot.bot.main.controller.MainController```
+```ru.paraktikumbot.bot.main.common.controller.MainController```
 приходит событие с этой сущностью, в дальнейшем ее нужно расширять
 
 1) Получите token от BotFather на своего бота и проставьте в 
@@ -94,7 +94,7 @@ public class RestTemplateConfig {
 
 По факту это просто объект, ответственность за создание которого мы возлагаем на Spring, а с помощью встроенного механизма инъекции зависимостей мы инжектим его через конструктор в нужном месте
 
-Пример использования можно найти вот тут ```ru.paraktikumbot.bot.main.config.BotConfig```
+Пример использования можно найти вот тут ```ru.paraktikumbot.bot.main.common.config.BotConfig```
 Spring видит, что есть вот такой вот бин и во время запуска производит создание бина и инжектит его через конструктор уже к нам в класс
 
 ### Задача: 

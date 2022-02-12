@@ -1,10 +1,10 @@
-package ru.paraktikumbot.bot.main.config;
+package ru.paraktikumbot.bot.main.common.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
-import ru.paraktikumbot.bot.main.model.WebHook;
+import ru.paraktikumbot.bot.main.common.model.WebHook;
 
 import javax.annotation.PostConstruct;
 

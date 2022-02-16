@@ -7,8 +7,15 @@ public class Update {
     @JsonProperty(value = "update_id")
     private Integer updateId;
 
+    @JsonProperty(value = "message")
+    private Message message;
+
     public Integer getUpdateId() {
         return updateId;
+    }
+
+    public Message getMessage() {
+        return message;
     }
 
     public Update setUpdateId(Integer updateId) {
